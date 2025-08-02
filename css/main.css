@@ -1,0 +1,202 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.sectionhome{
+    height:100vh;
+    background-image:url(../images/pexels-photo-10125970.webp);
+    background-size: 100% 100%;
+    position: relative;
+    
+    
+}
+.layer{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0,0.7);
+}
+.navbar p{
+    font-size: 20px;
+    font-weight: bold;
+    /* padding-top: 20px; */
+    padding-left: 75px;
+    color: red;
+}
+    
+.navbar ul{
+    display:flex;
+    list-style: none;
+    /* padding-top: 35px; */
+    padding-right: 75px;
+   
+    
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width:100%;
+    transition: 2s;
+    
+}
+.navbar a{
+    margin-left: 20px;
+    color: white;
+    text-decoration: none;
+}
+.navbar .ful{
+    color: rgba(255, 0, 0,0.7);
+}
+.home{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    justify-content: center;
+    height: 100%;
+}
+.first{
+    font-weight: bold;
+    font-size: 30px;
+
+}
+.second{
+
+    color: red;
+    font-size: 60px;
+    font-weight: bold;
+}
+.third{
+    font-weight: 40px;
+    margin-right: 4px;
+}
+.home .last2{
+    display: flex;
+}
+#aboutSec{
+    width: 1000px;
+    height: 1000px;
+    background-color: aqua;
+    margin:  auto ;
+  
+    box-shadow: 5px, black;
+    padding:10px;
+
+
+}
+/* .test2{
+    width:100px;
+    height:100px;
+    background-color: blue;
+    overflow: hidden;
+    padding: inherit;
+} */
+.backToTopButton{
+    width:30px;
+    height: 30px;
+    background-color: red;
+    border-radius: 50%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+}
+
+
+
+#serviceSec{
+    width: 1000px;
+    height: 1000px;
+    background-color: aqua;
+    margin:  auto ;
+    padding:40px;
+    margin-top: 20px
+
+
+}
+
+
+#portfolioSec{
+    width: 1000px;
+    height: 1000px;
+    background-color: aqua;
+    margin:  auto ;
+    padding:40px;
+    margin-top: 20px
+
+
+}
+
+
+
+#testmonialSec{
+    width: 1000px;
+    height: 1000px;
+    background-color: aqua;
+    margin:  auto ;
+    padding:40px;
+    margin-top: 20px
+
+
+}
+
+
+
+#blogSec{
+    width: 1000px;
+    height: 1000px;
+    background-color: aqua;
+    margin:  auto ;
+    padding:40px;
+    margin-top: 20px
+
+
+}
+
+
+
+#contactSec{
+    width: 1000px;
+    height: 1000px;
+    background-color: aqua;
+    margin:  auto ;
+    padding:40px;
+    margin-top: 20px
+
+
+}
+
+
+ 
+
+.coloringbox{
+    background-color: wheat;
+    position: fixed;
+    top: 30%;
+    left: 0;
+}
+
+.colors span{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    
+}
+.innerdiv i{
+    top: 0;
+    left: 100%;
+    background-color: gray;
+}
+.fa-cog{
+    cursor: pointer;
+}
+

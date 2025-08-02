@@ -1,1 +1,1 @@
-# coloring-and-going-to-sections
+# coloring-and-goind-to-sections
